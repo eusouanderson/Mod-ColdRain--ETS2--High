@@ -1,4 +1,4 @@
-# B.O.B Addon for Cold Rain - Aumento da Quantidade de Gotas de Chuva
+# B.O.B Addon for Cold Rain High - Aumento da Quantidade de Gotas de Chuva
 
 ## Descrição
 
