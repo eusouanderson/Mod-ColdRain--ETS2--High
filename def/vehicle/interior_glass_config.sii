@@ -1,0 +1,38 @@
+SiiNunit
+{
+    core_interior_glass_config : .glass.config {
+        drop_count_per_meter: 1000000  # Aumenta ainda mais o número de gotas por metro
+
+        initial_splash_scale: 1.5      # Aumenta a escala inicial dos respingos para torná-los mais visíveis
+        splash_duration: 0.02          # Aumenta a duração dos respingos para que permaneçam visíveis por mais tempo
+
+        minimal_lifetime: 2            # Aumenta a vida útil mínima das gotas
+        maximal_lifetime: 10           # Aumenta a vida útil máxima das gotas
+
+        minimal_fadeout: 0.4           # Aumenta o fadeout mínimo para um desaparecimento mais gradual
+        maximal_fadeout: 2.5           # Aumenta o fadeout máximo para um desaparecimento mais gradual
+
+        distortion_strength: 6.0       # Aumenta a distorção para um efeito de respingo mais dramático
+        blur_strength: 12.0            # Aumenta o desfoque para um efeito visual mais intenso
+
+        deformation_duration: 6.0      # Aumenta a duração da deformação das gotas
+        maximal_deformation: 5.5       # Aumenta a deformação máxima das gotas
+
+        moving_size_threshold: 0.5     # Mantém o tamanho mínimo para o movimento das gotas
+        vertical_acceleration_factor: -0.3  # Mantém a aceleração vertical
+        movement_acceleration_factor: 0.06  # Aumenta ligeiramente a aceleração do movimento das gotas
+        min_adhesion_factor: 0.6       # Aumenta o fator mínimo de adesão das gotas
+        max_adhesion_factor: 1.0       # Aumenta o fator máximo de adesão das gotas
+
+        min_speed_effect_mps: 1.34     # 5 km/h - Mantém o efeito de velocidade mínima
+        max_speed_effect_mps: 11.04    # 40 km/h - Mantém o efeito de velocidade máxima
+
+        min_angle_cosine: 2.5          # Aumenta ligeiramente o ângulo mínimo do cosseno
+        max_angle_cosine: 26.0         # Aumenta o ângulo máximo do cosseno
+        min_angle_factor: 2.5          # Aumenta o fator de ângulo mínimo
+        max_angle_factor: 21.0         # Aumenta o fator de ângulo máximo
+
+        drops_wiping_factor: 0.02      # Aumenta o fator de limpeza das gotas
+        drops_moving_offset: 0.03      # Aumenta o deslocamento do movimento das gotas
+    }
+}
