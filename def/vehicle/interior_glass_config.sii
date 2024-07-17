@@ -1,7 +1,7 @@
 SiiNunit
 {
     core_interior_glass_config : .glass.config {
-        drop_count_per_meter: 1000000  # Aumenta ainda mais o número de gotas por metro
+        drop_count_per_meter: 40000  # Aumenta ainda mais o número de gotas por metro
 
         initial_splash_scale: 1.5      # Aumenta a escala inicial dos respingos para torná-los mais visíveis
         splash_duration: 0.02          # Aumenta a duração dos respingos para que permaneçam visíveis por mais tempo
